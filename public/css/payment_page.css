@@ -1,0 +1,147 @@
+.payment_page_section{
+  padding: 7% 0;
+}
+
+.payment_page_order_summary {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: black;
+
+}
+.order_summary_div {
+  padding-bottom: 5%;
+  text-align: center;
+}
+.payment_container_s {
+  max-width: 80%;
+  /* padding: 3% 0 0; */
+  /* border: 5px solid green;
+  border-radius: 5px; */
+  background-color: #71EFA3;
+}
+
+.payment_container_f {
+  max-width: 80%;
+  /* padding: 3% 0 0; */
+  /* border: 5px solid red;
+  border-radius: 5px; */
+  background-color: #FFB3B2;
+}
+
+.payment_info_wrap {
+  padding: 0 3%;
+}
+
+.success {
+  color: green;
+  margin-left: 5px;
+}
+
+
+.failure {
+  color: red;
+  margin-left: 5px;
+}
+
+.payment_details {
+  padding: 5% 5%;
+}
+
+.payment_info_value_s {
+  color: #289672;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.payment_info_value_f {
+  color: #FF0500;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.payment_info {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.after-payment-btn {
+  border-color: #516BEB;
+  background-color: #516BEB;
+  color: white;
+}
+
+.after-payment-btn:hover {
+  border-color: #516BEB;
+  background-color: white;
+  color: #516BEB;
+}
+
+.post-payment-btn {
+  text-align: center;
+  margin: 5% auto 0;
+}
+
+.after-payment-btn:focus {
+  box-shadow: none;
+  border-color: #516BEB;
+  background-color: #516BEB;
+  color: white;
+}
+.payment_page_final_message {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: black;
+  padding-top: 3%;
+  text-align: center;
+}
+
+.website_logo {
+  padding-left: 47%;
+  padding-top: 10px;
+}
+
+.website_img {
+  max-width: 100px;
+  max-height: 100px;
+  /* align-self: center !important; */
+  /* text-align: center; */
+}
+
+@media only screen and (max-width: 992px) {
+  .payment_container {
+    max-width: 70%;
+  }
+  .website_logo {
+    padding-left: 45%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .payment_container {
+    max-width: 80%;
+  }
+  .website_logo {
+    padding-left: 43%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .payment_container {
+    max-width: 98%;
+  }
+  .payment_details_heading {
+    font-size: 25px;
+  }
+  .payment_msg {
+    font-size: 15px;
+    padding-top: 2%;
+  }
+  .website_logo {
+    padding-left: 40%;
+  }
+}
