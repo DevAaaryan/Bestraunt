@@ -61,12 +61,6 @@ $ npm app.js
 http://localhost:3000/
 
 ---
-#### credentials to login
-* Mobile no=7777777777
-* OTP = 489871
-* any card CVV = 123
-
----
 ### AWS DEPLOYMENT DOCUMENTATION
 1. Login into AWS and under the Services tab -> Compute, click on EC2.
 2. After navigating to the EC2 dashboard, click on the “Launch Instance” button.
